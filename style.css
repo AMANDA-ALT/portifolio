@@ -1,7 +1,15 @@
+:root {
+    --primary-color: #1E192C;
+    --secondary-color: #50196e;
+    --text-color: rgba(255, 255, 255, 0.772);
+    --font0: Arial, Helvetica, sans-serif;
+}
+
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(to right, #1E192C, #50196e);
-    color: white
+    font-family: var(--font0);
+    background-image: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+    color: var(--text-color);
 }
 
 nav ul {
@@ -12,6 +20,15 @@ nav ul {
 }
 
 a {
-    color: white;
+    color: var(--text-color);
     text-decoration: none;
+    font-size: 1.5rem;
+    font-weight:bold;
+    text-shadow: 2px 2px 0px rgb(0 0 0 / 45%);
+    
+}
+
+a:hover {
+    color: rgba(255, 255, 255, 0.5);
+
 }
