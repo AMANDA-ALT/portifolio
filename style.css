@@ -52,7 +52,7 @@ a {
 
 a:hover {
     /*color: rgba(255, 255, 255, 0.5);*/
-
+    background-image: -moz-linear-gradient
 }
 
 img {
@@ -80,3 +80,6 @@ p {
     box-shadow: -5px -3px 5px rgba(228, 16, 93, 0.525);
     
 }
+
+/* background-image: linear-gradient(to right, var(--fontcolor1), var(--fontcolor2), var(--fontcolor3));*/
+
