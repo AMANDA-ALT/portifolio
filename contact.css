@@ -1,0 +1,115 @@
+:root {
+    --primary-color: #372c57;
+    --secondary-color: black;
+    --text-color: rgba(255, 255, 255, 0.772);
+    --font0: Arial, Helvetica, sans-serif;
+    --font-color0: #319BED;
+    --font-color1: #5D57D6;
+    --font-color2: #B54B8D;
+    --font-color3: #F34C5C;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul li:hover{
+    background-color: var(--secondary-color);
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.8s;
+}
+
+.contacts:hover {
+    background-color: var(--primary-color);
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.8s;
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight:bold;
+    text-shadow: 2px 2px 0px rgb(0 0 0 / 45%);
+    
+}
+
+a:hover {
+    /*color: rgba(255, 255, 255, 0.5);*/
+    background-image: -moz-linear-gradient
+}
+
+body {
+    font-family: var(--font0);
+    background-image: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+    color: var(--text-color);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+label {
+margin-top: 10px;
+}
+
+input#name{
+    background-color: var(--text-color);
+    width: 47%;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+}
+
+input#email{
+    background-color: var(--text-color);
+    width: 47%;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+}
+
+#message {
+    background-color: var(--text-color);
+    width: 70%;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+button {
+    background-color: var(--font-color1);
+    color: var(--text-color);
+    padding: 10px;
+    border-radius: 5px;
+    width: 20%;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.391)
+}
+
+
+
+footer img {
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+   
+    
+}
+footer {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin:20px;
+    text-align: center;
+}
