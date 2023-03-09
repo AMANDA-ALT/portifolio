@@ -55,7 +55,7 @@ a:hover {
     background-image: -moz-linear-gradient
 }
 
-img {
+header img {
    width: 150px;
    height: 150px;
    border-radius: 50%;
@@ -95,34 +95,46 @@ p {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 60px;
-        background-color: #5D57D6;
+        padding: 100px;
+        background-color: var(--font-color2);
         border-radius: 5px;
         margin-right: 50px;
-       
-       
+        border: 200px;
+        margin-left: 300px;
         
 }
 
 .back-end {
     margin-top: 30px;
-    background-color: #319BED;
+    background-color: var(--font-color1);
     color: #ffffff;
     display: flex; 
     flex-direction: column;
     align-items: center;
-    padding: 60px;
+    padding: 100px;
     border-radius: 5px;
+    border: 200px;
+        
+   
    
    
 }
 
-footer {
-    background-color: var(--primary-color);
-    color: var(--text-color);
-    padding: 10px;
-    text-align: center;
+footer img {
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+   
     
+}
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin:20px;
+    text-align: center;
 }
 
 
