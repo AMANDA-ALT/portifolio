@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="shortcut icon" href="./img/abd.ico" type="image/x-icon">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a class="contacts" href="contacts.html">Contacts</a></li>
+        </ul>
+    </nav>
+
+
+    <h2>Send me a message:</h2>
+
+    <form onSubmit="sendAlert()">
+        <label for="name">Name</label> <br />
+        <input placeholder="Insert your name" type="text" id="name" /> <br />
+  
+        <label for="email">E-mail</label> <br />
+        <input placeholder="Insert email: example@example.com" type="email" id="email" /> <br />
+  
+        <label for="message">Message</label> <br />
+        <textarea placeholder="Insert your message" name="message" id="message" cols="100" rows="10"></textarea>
+        <br />
+        <br />
+  
+        <button type="submit">Submit</button>
+      </form>
+    
+      <script src="script.js"></script>
+
+      <footer>
+        <a href="https://github.com/AMANDA-ALT" target="_blank">
+            <img src="./img/github.svg" alt="github">
+            <p>Github</p>
+        </a>
+
+        <a href="https://www.linkedin.com/in/amanda-barata-a9925679/" target="_blank"> 
+            <img src="./img/linkedin.svg" alt="linkedin">
+            <p>Linkedin</p>
+        </a>
+
+        <a href="https://www.youtube.com/" target="_blank">
+            <img src="./img/youtube.svg" alt="github">
+            <p>YouTube</p>
+        </a>
+    </footer>
+    
+</body>
+</html>
